@@ -40,7 +40,9 @@ Details: head() is a DataFrame method that returns the first five rows. This hel
 
 - from sklearn.datasets import load_iris*: This imports the load_irisfunction from thedatasetsmodule of thesklearnlibrary. Theload_iris` function is used to load the Iris dataset, which is a classic dataset in machine learning used for classification tasks.
 
-- from sklearn.model_selection import train_test_split*: This imports the train_test_splitfunction from themodel_selectionmodule ofsklearn`. This function is used to split a dataset into training and testing sets. Step 2: Load the Iris Dataset IN python iris = load_iris() X = iris.data # Features y = iris.target # Target labels
+- from sklearn.model_selection import train_test_split*: This imports the train_test_splitfunction from themodel_selectionmodule ofsklearn`. This function is used to split a dataset into training and testing sets.
+
+- Step 2: Load the Iris Dataset IN python iris = load_iris() X = iris.data # Features y = iris.target # Target labels
 
 - iris = load_iris()*: This line calls the load_iris` function, which returns a dataset object containing the Iris dataset. This object includes both the feature data and target labels.
 
